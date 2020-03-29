@@ -1,11 +1,12 @@
 ---
 layout: post
-title: You're up and running!
-comments: true
+title: 使用 Gitment 做评论
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+经过几个小时的努力，终于把博客搭起来了，现在记录一下使用 Gitment 做评论的系统的过程。
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+最近好像很多评论插件都不好用了，经过多方查找，找到了这个 [issue](https://github.com/imsun/gitment/issues/188), 终于可以正常登录评论了。
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+感谢 [yajw](https://github.com/yajw) 
+
+👏👏👏
