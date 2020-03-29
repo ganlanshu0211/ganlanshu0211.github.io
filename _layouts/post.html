@@ -13,7 +13,21 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
-
   {% include disqus.html %}
 </article>
+
+
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: 'ganlanshu0211',
+    repo: 'https://github.com/ganlanshu0211/ganlanshu0211.github.io',
+    oauth: {
+        client_id: '38d7e60a1f455c62b6f4',
+        client_secret: 'b7224449dedac4a6be267533ffba2e6419502119',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
