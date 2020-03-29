@@ -14,7 +14,7 @@ tag: [Flutter]
 
 2. 如果显示 <gradlew> 文件没有执行权限的话，就要对该文件执行 <code>chmod +x</code> 来获取执行权限
 
-> 该问题解决方法来自 [stackoverflow](https://stackoverflow.com/search?q=ProcessException%3A+ProcessException%3A+Permission+denied){:target="_blank"}
+> 解决方法来自 [stackoverflow](https://stackoverflow.com/search?q=ProcessException%3A+ProcessException%3A+Permission+denied){:target="_blank"}
 
 ### Execution failed for task ':path_provider:verifyReleaseResources'.
 
