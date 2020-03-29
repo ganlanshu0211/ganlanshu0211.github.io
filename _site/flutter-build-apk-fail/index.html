@@ -65,7 +65,7 @@
   <div class="entry">
     <p>在写好 flutter APP 的之后，打包安装到手机，会出现失败的情况。出现这个 bug 有两种情况：</p>
 
-<h3 id="processexception-processexception-permission-denied">ProcessException: ProcessException: Permission denied</h3>
+<h2 id="processexception-processexception-permission-denied">ProcessException: ProcessException: Permission denied</h2>
 
 <ol>
   <li>
@@ -80,7 +80,7 @@
   <p>解决方法来自 <a href="https://stackoverflow.com/search?q=ProcessException%3A+ProcessException%3A+Permission+denied" target="_blank">stackoverflow</a></p>
 </blockquote>
 
-<h3 id="execution-failed-for-task-path_providerverifyreleaseresources">Execution failed for task ‘:path_provider:verifyReleaseResources’.</h3>
+<h2 id="execution-failed-for-task-path_providerverifyreleaseresources">Execution failed for task ‘:path_provider:verifyReleaseResources’.</h2>
 
 <p>看到了 <code>path_provider</code> ，应该是 <code>path_provider</code> 的问题。解决办法就是修改 <code>path_provider</code> 的 <code>build.gradle</code> 中的 <code>compileSdkVersion</code> 版本为 28，就可以成功了。</p>
 

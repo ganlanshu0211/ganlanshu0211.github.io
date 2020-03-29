@@ -12,7 +12,7 @@
                 <title>Flutter build apk failed 解决办法</title>
                 <description>&lt;p&gt;在写好 flutter APP 的之后，打包安装到手机，会出现失败的情况。出现这个 bug 有两种情况：&lt;/p&gt;
 
-&lt;h3 id=&quot;processexception-processexception-permission-denied&quot;&gt;ProcessException: ProcessException: Permission denied&lt;/h3&gt;
+&lt;h2 id=&quot;processexception-processexception-permission-denied&quot;&gt;ProcessException: ProcessException: Permission denied&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -27,7 +27,7 @@
   &lt;p&gt;解决方法来自 &lt;a href=&quot;https://stackoverflow.com/search?q=ProcessException%3A+ProcessException%3A+Permission+denied&quot; target=&quot;_blank&quot;&gt;stackoverflow&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h3 id=&quot;execution-failed-for-task-path_providerverifyreleaseresources&quot;&gt;Execution failed for task ‘:path_provider:verifyReleaseResources’.&lt;/h3&gt;
+&lt;h2 id=&quot;execution-failed-for-task-path_providerverifyreleaseresources&quot;&gt;Execution failed for task ‘:path_provider:verifyReleaseResources’.&lt;/h2&gt;
 
 &lt;p&gt;看到了 &lt;code&gt;path_provider&lt;/code&gt; ，应该是 &lt;code&gt;path_provider&lt;/code&gt; 的问题。解决办法就是修改 &lt;code&gt;path_provider&lt;/code&gt; 的 &lt;code&gt;build.gradle&lt;/code&gt; 中的 &lt;code&gt;compileSdkVersion&lt;/code&gt; 版本为 28，就可以成功了。&lt;/p&gt;
 

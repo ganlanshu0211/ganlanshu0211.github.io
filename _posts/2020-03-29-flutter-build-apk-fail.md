@@ -8,7 +8,7 @@ tag: [Flutter]
 
 在写好 flutter APP 的之后，打包安装到手机，会出现失败的情况。出现这个 bug 有两种情况：
 
-### ProcessException: ProcessException: Permission denied
+## ProcessException: ProcessException: Permission denied
 
 1. 对于这个 bug ，把项目建在有读写执行权限的路径，而不要建在 <code>/usr/bin</code> 之类的文件夹下面
 
@@ -16,7 +16,7 @@ tag: [Flutter]
 
 > 解决方法来自 [stackoverflow](https://stackoverflow.com/search?q=ProcessException%3A+ProcessException%3A+Permission+denied){:target="_blank"}
 
-### Execution failed for task ':path_provider:verifyReleaseResources'.
+## Execution failed for task ':path_provider:verifyReleaseResources'.
 
 看到了 <code>path_provider</code> ，应该是 <code>path_provider</code> 的问题。解决办法就是修改 <code>path_provider</code> 的 <code>build.gradle</code> 中的 <code>compileSdkVersion</code> 版本为 28，就可以成功了。
 
