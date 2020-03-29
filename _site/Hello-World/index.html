@@ -73,12 +73,11 @@
 
 <div id="gitmentContainer"></div>
 
-<link rel="stylesheet" href="https://unpkg.com/gitalk@latest/dist/gitalk.css">
-<script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
-<script src="https://hm.baidu.com/hm.js?8a8dd2e0b4b595edaa77bd0093279a08"></script>
+<script src="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/gitment.browser.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/theme-next/theme-next-gitment@1/default.css"/>
 
 <script>
-var gitalk = new Gitalk({
+var gitment = new Gitment({
     owner: 'ganlanshu0211',
     repo: 'ganlanshu0211.github.io',
     oauth: {
@@ -86,7 +85,7 @@ var gitalk = new Gitalk({
         client_secret: 'b7224449dedac4a6be267533ffba2e6419502119',
     },
 });
-gitalk.render('gitmentContainer');
+gitment.render('gitmentContainer');
 </script>
     </div>
 
