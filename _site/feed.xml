@@ -23,6 +23,10 @@
   &lt;/li&gt;
 &lt;/ol&gt;
 
+&lt;blockquote&gt;
+  &lt;p&gt;该问题解决方法来自 &lt;a href=&quot;https://stackoverflow.com/search?q=ProcessException%3A+ProcessException%3A+Permission+denied&quot; target=&quot;_blank&quot;&gt;stackoverflow&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
 &lt;h3 id=&quot;execution-failed-for-task-path_providerverifyreleaseresources&quot;&gt;Execution failed for task ‘:path_provider:verifyReleaseResources’.&lt;/h3&gt;
 
 &lt;p&gt;看到了 &lt;code&gt;path_provider&lt;/code&gt; ，应该是 &lt;code&gt;path_provider&lt;/code&gt; 的问题。解决办法就是修改 &lt;code&gt;path_provider&lt;/code&gt; 的 &lt;code&gt;build.gradle&lt;/code&gt; 中的 &lt;code&gt;compileSdkVersion&lt;/code&gt; 版本为 28，就可以成功了。&lt;/p&gt;
@@ -40,9 +44,9 @@
                 <title>使用 Gitment 做评论</title>
                 <description>&lt;p&gt;经过几个小时的努力，终于把博客搭起来了，现在记录一下使用 Gitment 做评论的系统的过程。&lt;/p&gt;
 
-&lt;p&gt;最近好像很多评论插件都不好用了，经过多方查找，找到了这个 &lt;a href=&quot;https://github.com/imsun/gitment/issues/188&quot;&gt;issue&lt;/a&gt;, 终于可以正常登录评论了。&lt;/p&gt;
+&lt;p&gt;最近好像很多评论插件都不好用了，经过多方查找，找到了这个 &lt;a href=&quot;https://github.com/imsun/gitment/issues/188&quot; target=&quot;_blank&quot;&gt;issue&lt;/a&gt;, 终于可以正常登录评论了。&lt;/p&gt;
 
-&lt;p&gt;感谢 &lt;a href=&quot;https://github.com/yajw&quot;&gt;yajw&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;感谢 &lt;a href=&quot;https://github.com/yajw&quot; target=&quot;_blank&quot;&gt;yajw&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;👏👏👏&lt;/p&gt;
 </description>
