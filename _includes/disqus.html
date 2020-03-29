@@ -1,0 +1,33 @@
+{% if site.disqus %}
+<div class="comments">
+	<div id="disqus_thread"></div>
+	<script type="text/javascript">
+
+	    var disqus_shortname = '{{ site.disqus }}';
+
+	    (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	    })();
+
+	</script>
+	<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+{% endif %}
+
+{% if site.comments.gitalk %}
+<script>
+		var gitalk = new Gitalk({
+					clientID: '{{ site.comments.gitalk_clientID }}',
+					clientSecret: '{{ site.comments.gitalk_Secret }}',
+					repo: '{{ site.comments.gitalk_repo }}',
+					owner: '{{ site.comments.gitalk_owner }}',
+					admin: '{{ site.comments.gitalk_admin }}',
+					id: location.pathname,      // Ensure uniqueness and length less than 50{{ page.title }}
+					distractionFreeMode: '{{ site.comments.distractionFreeMode }}'  // Facebook-like distraction free mode
+				})
+
+				gitalk.render('disqus_thread')
+</script>
+{% endif %}

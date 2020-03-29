@@ -3,13 +3,13 @@
 #
 
 # Name of your site (displayed in the header)
-name: 橄榄树
+name: Your Name
 
 # Short bio or description (displayed in the header)
-description: 一个半路出家的非典型程序员
+description: Web Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/timg.jpeg
+avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
 # Flags below are optional
@@ -18,15 +18,15 @@ avatar: /images/timg.jpeg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: tao0211@vip.qq.com
+  email:
   facebook:
   flickr:
-  github: ganlanshu0211/ganlanshu0211.github.io
+  github: barryclark/jekyll-now
   instagram:
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
-  twitter: 
+  twitter: jekyllrb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://olive.ren
+url:
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -84,12 +84,3 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-
-comments:
-  gitalk: true
-  gitalk_clientID: '38d7e60a1f455c62b6f4'
-  gitalk_Secret: 'b7224449dedac4a6be267533ffba2e6419502119'
-  gitalk_repo: 'ganlanshu0211.github.io'
-  gitalk_owner: 'ganlanshu0211'
-  gitalk_admin: 'ganlanshu0211'
-  distractionFreeMode: true
