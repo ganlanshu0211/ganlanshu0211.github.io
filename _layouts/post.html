@@ -18,10 +18,10 @@ layout: default
 
 
 <div id="gitmentContainer"></div>
-<link rel="stylesheet" href="http://olive.ren/gitment/style/default.css">
-<script src="http://olive.ren/gitment/dist/gitment.browser.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <script>
-var gitment = new Gitment({
+var gitalk = new Gitalk({
     owner: 'ganlanshu0211',
     repo: 'ganlanshu0211.github.io',
     oauth: {
@@ -29,5 +29,5 @@ var gitment = new Gitment({
         client_secret: 'b7224449dedac4a6be267533ffba2e6419502119',
     },
 });
-gitment.render('gitmentContainer');
+gitalk.render('gitmentContainer');
 </script>
