@@ -10,8 +10,8 @@ permalink: /about/
 
 ### 更多信息
 
-网站内容多来自编程中的感悟，转载文章会有转载提示
+网站内容多来自编程中的感悟，转载文章会有转载标识
 
 ### 联系我
 
-[email@domain.com](mailto:tao0211@vip.qq.com)
+[tao0211@vip.qq.com](mailto:tao0211@vip.qq.com)
