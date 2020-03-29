@@ -13,6 +13,10 @@ layout: default
     写于 {{ page.date | date: "%B %e, %Y" }}
   </div>
 
+  <div class="authorization">
+     版权所有，装载文章请标识本文出处 {{ site.baseurl }}{{ post.url }}
+  </div>
+
   {% include disqus.html %}
 </article>
 

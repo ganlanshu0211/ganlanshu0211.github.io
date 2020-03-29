@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 使用 Gitment 做评论
+desc: 国内使用 Gitment 失败的解决办法
 ---
 
 经过几个小时的努力，终于把博客搭起来了，现在记录一下使用 Gitment 做评论的系统的过程。

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" title="XSL Formatting" href="/rss.xsl" media="all" ?>
+
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>橄榄树</title>
+        <description>一个半路出家的非典型程序员</description>
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>Flutter build apk failed 解决办法</title>
+                <description>&lt;p&gt;在写好 flutter APP 的之后，打包安装到手机，会出现失败的情况。出现这个 bug 有两种情况：&lt;/p&gt;
+
+&lt;h3 id=&quot;processexception-processexception-permission-denied&quot;&gt;ProcessException: ProcessException: Permission denied&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;对于这个 bug ，把项目建在有读写执行权限的路径，而不要建在 &lt;code&gt;/usr/bin&lt;/code&gt; 之类的文件夹下面&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;如果显示 &lt;gradlew&gt; 文件没有执行权限的话，就要对该文件执行 &lt;code&gt;chmod +x&lt;/code&gt; 来获取执行权限&lt;/gradlew&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;execution-failed-for-task-path_providerverifyreleaseresources&quot;&gt;Execution failed for task ‘:path_provider:verifyReleaseResources’.&lt;/h3&gt;
+
+&lt;p&gt;看到了 &lt;code&gt;path_provider&lt;/code&gt; ，应该是 &lt;code&gt;path_provider&lt;/code&gt; 的问题。解决办法就是修改 &lt;code&gt;path_provider&lt;/code&gt; 的 &lt;code&gt;build.gradle&lt;/code&gt; 中的 &lt;code&gt;compileSdkVersion&lt;/code&gt; 版本为 28，就可以成功了。&lt;/p&gt;
+
+&lt;p&gt;打开了 &lt;code&gt;Android Studio&lt;/code&gt; 的就可以直接在 &lt;code&gt;Android Studio&lt;/code&gt; 里改了，在  &lt;code&gt;Gradle Script&lt;/code&gt; 下面可以找到该文件。&lt;/p&gt;
+
+&lt;p&gt;没有的话可以直接到目录查找，该文件的目录是在 flutter 的安装目录 /flutter/flutter/.pub-cache/hosted/pub.flutter-io.cn/path_provider-0.4.1/android/build.gradle&lt;/p&gt;
+</description>
+                <pubDate>Sun, 29 Mar 2020 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/flutter-build-apk-fail/</link>
+                <guid isPermaLink="true">http://localhost:4000/flutter-build-apk-fail/</guid>
+            </item>
+        
+            <item>
+                <title>使用 Gitment 做评论</title>
+                <description>&lt;p&gt;经过几个小时的努力，终于把博客搭起来了，现在记录一下使用 Gitment 做评论的系统的过程。&lt;/p&gt;
+
+&lt;p&gt;最近好像很多评论插件都不好用了，经过多方查找，找到了这个 &lt;a href=&quot;https://github.com/imsun/gitment/issues/188&quot;&gt;issue&lt;/a&gt;, 终于可以正常登录评论了。&lt;/p&gt;
+
+&lt;p&gt;感谢 &lt;a href=&quot;https://github.com/yajw&quot;&gt;yajw&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;👏👏👏&lt;/p&gt;
+</description>
+                <pubDate>Mon, 03 Mar 2014 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/Hello-World/</link>
+                <guid isPermaLink="true">http://localhost:4000/Hello-World/</guid>
+            </item>
+        
+    </channel>
+</rss>
+

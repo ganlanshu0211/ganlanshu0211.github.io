@@ -93,3 +93,6 @@ comments:
   gitalk_owner: 'ganlanshu0211'
   gitalk_admin: 'ganlanshu0211'
   distractionFreeMode: true
+
+paginate: 10
+paginate_path: "/page:num/"
