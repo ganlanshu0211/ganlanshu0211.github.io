@@ -2,7 +2,7 @@
 layout: post
 title: Flutter build apk failed 解决办法
 category: Flutter
-desc: Flutter build apk failed 解决办法
+excerpt: Flutter build apk failed ProcessException Permission denied Execution failed for task ':path_provider:verifyReleaseResources' 解决办法
 tag: [Flutter]
 ---
 
