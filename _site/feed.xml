@@ -9,6 +9,15 @@
         <atom:link href="http://olive.ren/feed.xml" rel="self" type="application/rss+xml" />
         
             <item>
+                <title>flutter vscode device list 没有 simulator 的解决办法</title>
+                <description>&lt;p&gt;不知道为什么出现这个 bug，这个时候运行 flutter doctor，按照提示运行命令就行了&lt;/p&gt;
+</description>
+                <pubDate>Fri, 03 Apr 2020 00:00:00 +0800</pubDate>
+                <link>http://olive.ren/vscode-cannot-find-ios-simulator/</link>
+                <guid isPermaLink="true">http://olive.ren/vscode-cannot-find-ios-simulator/</guid>
+            </item>
+        
+            <item>
                 <title>Flutter build apk failed 解决办法</title>
                 <description>&lt;p&gt;在写好 flutter APP 的之后，打包安装到手机，会出现失败的情况。出现这个 bug 有两种情况：&lt;/p&gt;
 
